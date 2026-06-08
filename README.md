@@ -1,6 +1,6 @@
 # Financial AI Assistant
 
-This is a small RAG project I built to search and answer questions from company annual reports.
+This is a RAG project I built to search and answer questions from company annual reports.
 
 I used Microsoft and NVIDIA annual reports because both companies are closely connected to AI, cloud, GPUs, and data center growth. The idea was to build something more useful than a normal PDF chatbot, where the app can search stored reports and answer questions using only the relevant report content.
 
