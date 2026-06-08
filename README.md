@@ -28,11 +28,18 @@ text PDF reports → load pages → clean text → split into chunks → create 
 
 ## Tech stack
 
-text Python Streamlit LangChain ChromaDB OpenAI API PyMuPDF python-dotenv 
+Python, Streamlit, LangChain, ChromaDB, OpenAI API, PyMuPDF, python-dotenv
 
 ## Main files
 
-text app.py                  Streamlit app load_documents.py       loads PDF pages preprocess_text.py      cleans extracted text chunk_documents.py      splits text into chunks create_database.py      creates the ChromaDB vector database retriever.py            searches relevant chunks generate_answer.py      generates the final answer config.py               stores folder paths and collection name 
+- `app.py` – Streamlit app
+- `load_documents.py` – loads PDF pages
+- `preprocess_text.py` – cleans extracted text
+- `chunk_documents.py` – splits text into chunks
+- `create_database.py` – creates the ChromaDB vector database
+- `retriever.py` – searches relevant chunks
+- `generate_answer.py` – generates the final answer
+- `config.py` – stores folder paths and collection name
 
 ## How to run
 
