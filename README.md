@@ -47,27 +47,6 @@ Python, Streamlit, LangChain, ChromaDB, OpenAI API, PyMuPDF, python-dotenv
 - `generate_answer.py` – generates the final answer
 - `config.py` – stores folder paths and collection name
 
-## How to run
-
-Create a virtual environment:
-
-bash python3 -m venv venv source venv/bin/activate 
-
-Install dependencies:
-
-bash pip install -r requirements.txt 
-
-Create a .env file:
-
-text OPENAI_API_KEY=your_api_key_here 
-
-Create the vector database:
-
-bash python -m src.create_database 
-
-Run the app:
-
-bash streamlit run app.py 
 
 ## Project Demo
 
