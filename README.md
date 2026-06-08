@@ -69,6 +69,18 @@ Run the app:
 
 bash streamlit run app.py 
 
+## Project Demo
+
+### Streamlit App Screenshots
+
+![App Screenshot 1](screenshots/app_screenshot_01.png)
+
+![App Screenshot 2](screenshots/app_screenshot_02.png)
+
+### Demo Video
+
+[Watch the demo video](screenshots/App_demo.mov)
+
 ## Current version
 
 This is the first working version of the project.
