@@ -63,7 +63,3 @@ This is the first working version of the project.
 It can answer questions from the stored reports and supports company/year filtering. It works best for questions about AI strategy, risks, data centers, cloud, and business discussion.
 
 It is not yet a full financial calculation engine. For questions like profit margin comparison or revenue growth, I would add a separate structured financial metrics file later.
-
-## Future improvements
-
-text Add structured financial metrics Add better source display Add more companies Add RAG evaluation Deploy a protected demo version 
