@@ -8,23 +8,29 @@ I used Microsoft and NVIDIA annual reports because both companies are closely co
 
 The app lets the user choose a company and year, then ask a question about the annual report.
 
-Example questions:
+## Example questions
 
-text What does Microsoft say about AI? What are Microsoft's main business risks? What does NVIDIA say about data center growth? What are NVIDIA's main business risks? 
+- What does Microsoft say about AI?
+- What are Microsoft's main business risks?
+- What does NVIDIA say about data center growth?
+- What are NVIDIA's main business risks?
 
-The app retrieves the most relevant chunks from the reports and sends only those chunks to the LLM. This keeps the answer more grounded and avoids sending the full PDF every time.
+The app retrieves the most relevant chunks from the reports and sends only those chunks to the LLM. This keeps the answer grounded and avoids sending the full PDF every time.
 
 ## Reports used
 
 The current version uses:
 
-text Microsoft Annual Report 2024 Microsoft Annual Report 2025 NVIDIA Annual Report 2024 NVIDIA Annual Report 2025 
+- Microsoft Annual Report 2024
+- Microsoft Annual Report 2025
+- NVIDIA Annual Report 2024
+- NVIDIA Annual Report 2025
 
 ## How it works
 
 The project follows this flow:
 
-text PDF reports → load pages → clean text → split into chunks → create embeddings → store in ChromaDB → retrieve relevant chunks → generate answer with GPT-4o-mini 
+PDF reports → load pages → clean text → split into chunks → create embeddings → store in ChromaDB → retrieve relevant chunks → generate answer with GPT-4o-mini
 
 ## Tech stack
 
